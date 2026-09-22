@@ -1,6 +1,6 @@
-# VIASR's Safe Dimension/Safe World · 资源维度
+# VIASR's Safe Dimension/Safe World · 安全维度
 
-> **给 HBM 核工业整合包用的安全资源维度**：输入 `/dim tp` 即可进入一个没有怪物、地形可控、可选接入 HBM CE 矿物生成的世界，安心采集资源、建造基地。
+> **给 HBM 核工业整合包用的安全的建家维度**：输入 `/dim tp` 即可进入一个没有怪物、地形可控、可选接入 HBM CE 矿物生成的世界，安心采集资源、建造基地。
 >
 > **A safe resource dimension for HBM nuclear-tech modpacks.** Type `/dim tp` to enter a mob-free, fully configurable world — with optional HBM CE ore generation — so you can mine and build in peace.
 
@@ -17,7 +17,7 @@
 
 ### 简介
 
-本模组为 HBM CE（NTM 社区版）等重型整合包提供一个**独立的资源/建家维度**，**可单独使用**。
+本模组为 HBM CE（NTM 社区版）等重型整合包提供一个**独立的建家维度**，**可单独使用**。
 
 原版 HBM 世界的辐射、怪物与地形往往不适合长期定居，而单纯降低难度又破坏玩法。本模组换一条路：**再开一个维度**——那里没有敌对生物、地形参数全部可配置、按需接入 HBM 的矿物生成，主世界依然保持原本的硬核玩法。
 
