@@ -25,7 +25,7 @@
 - **维度注册码**：`66`（非负整数，避开原版 `-1 / 0 / 1`）
 - **维度内部名**：`low_plains`
 - **作者**：VIASR&Ftahinza
-- **程序**: Ftahinza&UNFOX3213
+- **程序**: Ftahinza&UNFOX3213&DeepSeek v4.1flash
 - **平台**：Minecraft 1.12.2 · Forge 14.23.5.2847
 - **当前版本**：2.1.0
 
@@ -171,7 +171,7 @@ The creatures from Scape and Run: Parasites often make the Overworld unsuitable 
 - **Dimension Registration ID**: `66` (non-negative integer, avoiding vanilla `-1 / 0 / 1`)
 - **Internal Dimension Name**: `low_plains`
 - **Authors**: VIASR & Ftahinza
-- **Programmers**: Ftahinza & UNFOX3213
+- **Programmers**: Ftahinza & UNFOX3213 & DeepSeek v4.1flash
 - **Platform**: Minecraft 1.12.2 · Forge 14.23.5.2847
 - **Current Version**: 2.1.0
 
