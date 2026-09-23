@@ -1,0 +1,23 @@
+buildscript {
+    repositories { maven { url = 'https://maven.minecraftforge.net/' }; mavenCentral(); gradlePluginPortal() }
+    dependencies { classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT' }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+version = '2.1'
+group = 'cn.blockforge.generated'
+archivesBaseName = 'safe_world'
+sourceCompatibility = targetCompatibility = '1.8'
+minecraft { version = '1.12.2-14.23.5.2847'; runDir = 'run'; mappings = 'stable_39' }
+// 注意：ForgeGradle 会把 project.minecraft.version 截断成 '1.12.2'，
+// 这里用完整版本号写进 mcmod.info，与上一版 safe_world-2.0 的元数据保持一致。
+ext.mcFullVersion = '1.12.2-14.23.5.2847'
+tasks.withType(JavaCompile) { options.encoding = 'UTF-8' }
+processResources {
+    // mcmod.info 里有中文，必须显式指定 UTF-8：
+    // 否则 Groovy 的 expand() 会按系统默认编码（简体中文 Windows 是 GBK）读写，导致描述变成乱码。
+    filteringCharset = 'UTF-8'
+    inputs.property 'version', project.version
+    inputs.property 'mcversion', project.mcFullVersion
+    from(sourceSets.main.resources.srcDirs) { include 'mcmod.info'; expand 'version': project.version, 'mcversion': project.mcFullVersion }
+    from(sourceSets.main.resources.srcDirs) { exclude 'mcmod.info' }
+}

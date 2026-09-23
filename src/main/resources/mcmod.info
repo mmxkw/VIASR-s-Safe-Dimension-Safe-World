@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "y_65_hbm_ce_hbm_api_2000",
+    "name": "VIASR's Resource Dimension (HBM CE)",
+    "description": "输入 /dim tp 传送到一个正常群系生成、无生物刷新的资源维度（边界 200000x200000），任何人可用；/dim leave 返回进入前的位置；管理员用 /dim list 查看维度内人员。已接入 HBM CE 矿石生成（作物受 HBM 限制仅主世界生成）。",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "authorList": [
+      "VIASR"
+    ]
+  }
+]
